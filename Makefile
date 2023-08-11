@@ -11,6 +11,9 @@ down:
 build:
 	docker-compose up -d --build
 
+restart:
+	down up
+
 init: 
 	build laravel-composer-install yarn-install down up
 
