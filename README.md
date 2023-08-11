@@ -22,7 +22,7 @@ $ rm -rf .git
 $ rm -f .gitignore 
 ```
 
-4. Clone the Laravel and Vuejs project in the `src` directory.
+3. Clone the Laravel and Vuejs project in the `src` directory.
 
 ```bash
 $ mkdir src
