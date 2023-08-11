@@ -34,5 +34,26 @@ $ git clone https://github.com/XXXXX.git .
 
 ```bash
 $ cd docker-laravel-vue
-$ make build
+$ make init
+```
+
+5. Running Laravel migration
+
+```bash
+$ cd docker-laravel-vue
+$ make laravel-migrate
+```
+
+6. Docker up
+
+```bash
+$ cd docker-laravel-vue
+$ make up
+```
+
+7. Docker down
+
+```bash
+$ cd docker-laravel-vue
+$ make down
 ```
