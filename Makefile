@@ -13,7 +13,7 @@ build:
 
 restart: down up
 
-init: build laravel-composer-install yarn-install restart
+init: build laravel-composer-install restart
 
 laravel-composer-install:
 	docker-compose exec php-fpm composer update
