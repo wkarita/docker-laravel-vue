@@ -32,5 +32,5 @@ services:
       - ./src/:/var/www/src/
     working_dir: /var/www/src/
     command: >
-      sh -c "yarn dev --host 0.0.0.0"
+      sh -c "yarn && yarn dev --host 0.0.0.0"
     tty: true
